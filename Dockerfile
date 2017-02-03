@@ -1,5 +1,4 @@
-FROM bfolkens/docker-opencv:2.4.12-cuda7.0-cudnn4
-
+FROM bfolkens/docker-opencv:3.1.0-cuda8.0-cudnn5
 # Install some dep packages
 
 ENV CAFFE_PACKAGES libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler gfortran libjpeg62 libfreeimage-dev python-dev \
